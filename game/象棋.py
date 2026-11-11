@@ -88,8 +88,8 @@ def draw_board():
         end_x = OFFSET_X + 8 * GRID
         pygame.draw.line(screen, LINE_COLOR, (start_x, y), (end_x, y), 2)
     # 楚河汉界文字
-    txt1 = font_tip.render("楚河", True, LINE_COLOR)
-    txt2 = font_tip.render("漢界", True, LINE_COLOR)
+    txt1 = font_tip.render("CHUHE", True, LINE_COLOR)
+    txt2 = font_tip.render("HANJIE", True, LINE_COLOR)
     screen.blit(txt1, (80, OFFSET_Y + 4.4*GRID))
     screen.blit(txt2, (340, OFFSET_Y + 4.4*GRID))
     # 九宫斜线
